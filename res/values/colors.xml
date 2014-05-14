@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Gray">#ff999999</color>
+    <color name="Black">#FF000000</color>
+    <color name="Blue">#01B4F5</color>
+    <color name="Focus_Blue">#FF4CAFDD</color>
+    <color name="Trans_Black">#4c000000</color>
+    <color name="Black_Gray">#EE303030</color>
+    <color name="display_page_header">#f4f4f4f2</color>
+    <color name="drawer_menu_background">#e9e9e8</color>
+    <color name="drawer_menu_background_click">#5c5c5c</color>
+    <color name="separate_line">#8b8a8a</color>
+
+</resources>
