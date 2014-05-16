@@ -1,0 +1,21 @@
+Build
+This project is set up to build on Android SDK Tools r22.3+ and Android NDK r9c+. The build works on Linux, Mac OS X, and Windows 7/8. See Issues for reported build issues.
+
+On 64-bit Ubuntu, you may need to install the ia32-libs 32-bit compatibility library.
+
+To build tess-two, run the following commands in the terminal:
+
+git clone git://github.com/rmtheis/tess-two tess
+cd tess
+cd tess-two
+ndk-build
+android update project --path .
+ant release
+To build eyes-two, additionally run the following:
+
+cd ..
+cd eyes-two
+ndk-build
+android update project --path .
+ant release
+After building, the tess-two and eyes-two projects can be imported into Eclipse using File->Import->Existing Projects into Workspace.
